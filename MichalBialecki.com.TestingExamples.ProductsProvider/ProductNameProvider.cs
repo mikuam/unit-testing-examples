@@ -1,4 +1,4 @@
-﻿namespace MichalBialecki.com.TestingExamples.ProductsProvider.Tests
+﻿namespace MichalBialecki.com.TestingExamples.ProductsProvider
 {
     public class ProductNameProvider : IProductNameProvider
     {

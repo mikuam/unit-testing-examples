@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MichalBialecki.com.TestingE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichalBialecki.com.TestingExamples.Web", "MichalBialecki.com.TestingExamples.Web\MichalBialecki.com.TestingExamples.Web.csproj", "{E3BD653A-02E3-4AC7-93AF-DAA1A8A406A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichalBialecki.com.TestingExamples.Web.Tests", "MichalBialecki.com.TestingExamples.Web.Tests\MichalBialecki.com.TestingExamples.Web.Tests.csproj", "{412B3D2F-E1A2-4844-A631-B408E7D7DD3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichalBialecki.com.TestingExamples.Web.Tests", "Tests\MichalBialecki.com.TestingExamples.Web.Tests\MichalBialecki.com.TestingExamples.Web.Tests.csproj", "{412B3D2F-E1A2-4844-A631-B408E7D7DD3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,6 @@
-﻿using MichalBialecki.com.TestingExamples.ProductsProvider.Tests;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace MichalBialecki.com.TestingExamples.ProductsProvider
+namespace MichalBialecki.com.TestingExamples.ProductsProvider.Tests
 {
     [TestFixture]
     public class ProductNameProviderTests
