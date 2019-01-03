@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging.Internal;
 using NSubstitute;
 using NUnit.Framework;
 
-namespace MichalBialecki.com.TestingExamples.Web.Tests
+namespace MichalBialecki.com.TestingExamples.Web.Tests.Product
 {
     [TestFixture]
     public class ProductsControllerTests
