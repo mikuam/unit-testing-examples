@@ -1,5 +1,8 @@
-﻿using MichalBialecki.com.TestingExamples.Web.Product;
+﻿using System;
+using System.Linq;
+using MichalBialecki.com.TestingExamples.Web.Product;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Internal;
 using NSubstitute;
 using NUnit.Framework;
 
@@ -39,7 +42,7 @@ namespace MichalBialecki.com.TestingExamples.Web.Tests
             Assert.AreEqual(result, guid);
             _logger
                 .Received(1)
-                .Log(LogLevel.Information, Arg.Is<string>(message => message.Contains(product.ProductId)));
+                .Log(LogLevel.Information, 0, Arg.Is<FormattedLogValues>(v => v.First().Value.ToString().Contains(product.ProductId)), Arg.Any<Exception>(), Arg.Any<Func<object, Exception, string>>());
         }
     }
 }
