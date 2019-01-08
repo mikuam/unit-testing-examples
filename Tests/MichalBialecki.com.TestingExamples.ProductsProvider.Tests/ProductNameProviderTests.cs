@@ -15,7 +15,7 @@ namespace MichalBialecki.com.TestingExamples.ProductsProvider.Tests
             // Act
             var result = productNameProvider.GetProductName(productId);
 
-            // Arrange
+            // Assert
             Assert.AreEqual("Product " + productId, result);
         }
     }
